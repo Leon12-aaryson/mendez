@@ -1,0 +1,107 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: .2s;
+}
+
+.main {
+    padding: 1.2rem;
+    background: #161922;
+}
+
+.top {
+    padding-top: 10rem;
+    justify-content: center;
+}
+
+.toptx {
+    margin-top: 5rem;
+    text-align: center;
+    color: whitesmoke;
+    margin: auto;
+}
+
+.experience h2 {
+    text-align: center;
+    color: white;
+}
+
+.experience h2,
+.about h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.exptabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    justify-content: center;
+    /* padding: 1.5rem; */
+}
+
+.tab {
+    border-radius: .2rem;
+}
+
+.tab .vdtxt {
+    /* padding: 1rem; */
+    color: whitesmoke;
+}
+
+.tab iframe {
+    /* width: 100%; */
+    border-radius: .2rem;
+}
+
+.footer {
+    background: #85010d;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    color: whitesmoke;
+    padding: 1.2rem;
+}
+
+
+.val,
+.service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.sect,
+.servlet,
+.capt {
+    padding: 1.2rem;
+    background: white;
+    color: black;
+    border-radius: .2rem;
+    box-shadow: 1px 2px 2px #85010d;
+}
+
+.servlet ul li {
+    list-style: circle;
+    margin-left: 1.5rem;
+}
+
+.about {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.about img {
+    width: 50%;
+}
+
+.about p,
+.about h2 {
+    /* padding: 1rem; */
+    color: white;
+}

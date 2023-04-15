@@ -1,0 +1,30 @@
+@media (max-width: 650px) {
+    .exptabs {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem;
+    }
+
+    .experience h2,
+    .about h2 {
+        font-size: 1rem;
+        /* text-decoration: underline; */
+    }
+
+    .tab iframe {
+        height: 450px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    .about {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .about img {
+        width: 100%;
+    }
+}
