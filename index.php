@@ -41,14 +41,26 @@ include "header.php";
             <p>Have a poke around, get to know us a bit better</p>
         </div>
     </div>
-    
-    <div class="client">
-        <!-- <h2>Some Of our Clients</h2> -->
-        <div class="clientale">
 
+    <div class="client-area">
+        <div class="cont">
+            <h2>Our clients</h2>
+            <section class="logo-area slider">
+                <div class="slide"><img src="static/images/po1.png" alt=""></div>
+                <div class="slide"><img src="static/images/po2.png" alt=""></div>
+                <div class="slide"><img src="static/images/po3.png" alt=""></div>
+                <div class="slide"><img src="static/images/po4.png" alt=""></div>
+                <div class="slide"><img src="static/images/po5.png" alt=""></div>
+                <div class="slide"><img src="static/images/po6.png" alt=""></div>
+                <div class="slide"><img src="static/images/po7.png" alt=""></div>
+                <div class="slide"><img src="static/images/po8.png" alt=""></div>
+                <div class="slide"><img src="static/images/po9.png" alt=""></div>
+                <div class="slide"><img src="static/images/po10.png" alt=""></div>
+            </section>
         </div>
     </div>
 </section>
+
 
 <?php
 include "footer.php";

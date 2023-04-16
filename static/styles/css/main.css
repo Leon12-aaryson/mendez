@@ -41,7 +41,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
     justify-content: center;
-    /* padding: 1.5rem; */
+    padding: 1rem;
 }
 
 .tab {
@@ -49,12 +49,12 @@
 }
 
 .tab .vdtxt {
-    /* padding: 1rem; */
-    color: whitesmoke;
+    padding: 1rem;
+    color: white;
 }
 
 .tab iframe {
-    /* width: 100%; */
+    width: 100%;
     border-radius: .2rem;
 }
 
@@ -92,16 +92,81 @@
 }
 
 .about {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
     margin-top: 1rem;
 }
 
 .about img {
-    width: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .about p,
 .about h2 {
-    /* padding: 1rem; */
+    padding: 1rem;
     color: white;
+    margin-left: 1rem;
+}
+
+.mem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.team {
+    font-weight: 350;
+}
+
+.intro {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.team h4 {
+    font-size: 1.2rem;
+    font-weight: 350;
+    /* color: #85010d; */
+
+    color: black;
+    background: white;
+    padding: 0.5rem;
+    border-radius: .2rem;
+}
+
+.team h5 {
+    font-weight: normal;
+    font-size: 1rem;
+    padding: .6rem;
+}
+
+/* slider for clientele */
+.slider{
+    overflow: hidden;
+}
+.cont h2 {
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1040px;
+    font-weight: 450;
+    text-align: center;
+}
+
+.slider img {
+    height: 100px;
+    width: 150px;
+}
+
+.logo-area {
+    padding: 1rem;
+}
+
+.logo-area .slick-slide {
+    margin: 0.5rem;
 }
