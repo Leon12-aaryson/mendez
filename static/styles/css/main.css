@@ -145,9 +145,10 @@
 }
 
 /* slider for clientele */
-.slider{
+.slider {
     overflow: hidden;
 }
+
 .cont h2 {
     color: white;
     margin-top: 1rem;
@@ -161,6 +162,15 @@
 .slider img {
     height: 100px;
     width: 150px;
+    margin-left: 1rem;
+}
+
+.slick-slide {
+    margin: 0 1rem;
+}
+
+.slick-slide img {
+    width: 100%;
 }
 
 .logo-area {
@@ -169,4 +179,32 @@
 
 .logo-area .slick-slide {
     margin: 0.5rem;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+}
+
+/* clients logos */
+.client-logo{
+    display: block;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+/* .client-logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+
+.client-logo img {
+    height: 100px;
+    width: 150px;
+    margin: .5rem;
 }

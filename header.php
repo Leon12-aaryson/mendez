@@ -7,7 +7,7 @@ include "include.php";
         <li class="logo"><a href="index.php">Dimension Pictures</a></li>
         <li class="item"><a href="index.php">Home</a></li>
         <!-- <li class="item"><a href="works.php">How It works</a></li> -->
-        <li class="item"><a href="about.php">More About Us</a></li>
+        <li class="item"><a href="about.php">About Us</a></li>
         <!-- <li class="item"><a href="#">Blog</a></li> -->
         <li class="item"><a href="#contact">Contact</a></li>
 

@@ -9,13 +9,13 @@
     .about h2 {
         font-size: 1rem;
     }
-    
+
     .footer {
         grid-template-columns: repeat(1, 1fr);
         padding: 1rem;
     }
 
-    .sect1{
+    .sect1 {
         margin-left: 1rem;
     }
 
@@ -63,6 +63,38 @@
         font-weight: normal;
         font-size: 1rem;
         /* padding: .6rem; */
+    }
+
+    .slider img {
+        height: 60px;
+        width: 100px;
+        /* margin-left: 0.8rem; */
+    }
+
+    .client-logo {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .client-logo img {
+        height: 50px;
+        width: 5em;
+        margin: .5rem;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .about {
+        grid-template-columns: auto;
+        margin-top: .2rem;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about .txt {
+        width: 100%;
     }
 
 }

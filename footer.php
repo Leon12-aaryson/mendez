@@ -27,13 +27,33 @@
 <script src="static/styles/js/index.js"></script>
 
 <script>
-    $('.logo-area').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        autoplay: true,
-        dots: true,
-        autoplaySpeed: 2000,
-    });
+    $(document).ready(function() {
+        $('.logo-area').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            dots: false,
+            arrows: false,
+            autoplaySpeed: 2000,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4,
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },{
+                breakpoint: 390,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+        });
+    })
 </script>
 </body>
 

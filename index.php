@@ -20,6 +20,22 @@ include "header.php";
     </div>
 </div>
 <section class="main">
+<div class="client-area">
+        <div class="cont">
+            <section class="logo-area slider">
+                <div class="slide"><img src="static/images/po1.png" alt=""></div>
+                <div class="slide"><img src="static/images/po2.png" alt=""></div>
+                <div class="slide"><img src="static/images/po3.png" alt=""></div>
+                <div class="slide"><img src="static/images/po4.png" alt=""></div>
+                <div class="slide"><img src="static/images/po5.png" alt=""></div>
+                <div class="slide"><img src="static/images/po6.png" alt=""></div>
+                <div class="slide"><img src="static/images/po7.png" alt=""></div>
+                <div class="slide"><img src="static/images/po8.png" alt=""></div>
+                <div class="slide"><img src="static/images/po9.png" alt=""></div>
+                <div class="slide"><img src="static/images/po10.png" alt=""></div>
+            </section>
+        </div>
+    </div>
     <div class="about">
         <img src="static/images/phot.jpg" alt="">
         <div class="txt">
@@ -45,17 +61,17 @@ include "header.php";
     <div class="client-area">
         <div class="cont">
             <h2>Our clients</h2>
-            <section class="logo-area slider">
-                <div class="slide"><img src="static/images/po1.png" alt=""></div>
-                <div class="slide"><img src="static/images/po2.png" alt=""></div>
-                <div class="slide"><img src="static/images/po3.png" alt=""></div>
-                <div class="slide"><img src="static/images/po4.png" alt=""></div>
-                <div class="slide"><img src="static/images/po5.png" alt=""></div>
-                <div class="slide"><img src="static/images/po6.png" alt=""></div>
-                <div class="slide"><img src="static/images/po7.png" alt=""></div>
-                <div class="slide"><img src="static/images/po8.png" alt=""></div>
-                <div class="slide"><img src="static/images/po9.png" alt=""></div>
-                <div class="slide"><img src="static/images/po10.png" alt=""></div>
+            <section class="client-logo">
+                <img src="static/images/po1.png" alt="">
+                <img src="static/images/po2.png" alt="">
+                <img src="static/images/po3.png" alt="">
+                <img src="static/images/po4.png" alt="">
+                <img src="static/images/po5.png" alt="">
+                <img src="static/images/po6.png" alt="">
+                <img src="static/images/po7.png" alt="">
+                <img src="static/images/po8.png" alt="">
+                <img src="static/images/po9.png" alt="">
+                <img src="static/images/po10.png" alt="">
             </section>
         </div>
     </div>
