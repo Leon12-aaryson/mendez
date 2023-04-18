@@ -181,7 +181,7 @@
     margin: 0.5rem;
 }
 
-.slick-dots li.slick-active button:before {
+.slick-dots .slick-active button:before {
     color: #fff;
 }
 
@@ -191,20 +191,13 @@
 
 /* clients logos */
 .client-logo{
-    display: block;
-    /* flex-wrap: wrap; */
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.8rem;
 }
-/* .client-logo{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-} */
 
 .client-logo img {
-    height: 100px;
-    width: 150px;
+    height: 90px;
+    width: 100%;
     margin: .5rem;
 }

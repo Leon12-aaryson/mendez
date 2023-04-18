@@ -7,9 +7,13 @@ include "header.php";
 <style>
     .top {
         height: 60vh;
-        /* width: 100vw; */
         background: linear-gradient(to right, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 50%), url('static/images/phot.jpg');
         background-size: cover;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 399px){
+       .top{
+        height: 25vh;
+       }
     }
 </style>
 

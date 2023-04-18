@@ -1,8 +1,173 @@
-@media (max-width: 650px) {
+@media only screen and (min-width: 0px) and (max-width: 399px) {
+    * {
+        font-size: 0.9rem;
+    }
+
+    .exptabs {
+        grid-template-columns: auto;
+        font-weight: 300;
+    }
+
+    .vdtxt h4,
+    .vdtxt h5 {
+        font-weight: 350;
+    }
+
+    .capt h5 {
+        font-weight: 400;
+    }
+
+    .experience h2,
+    .about h2 {
+        font-size: 1rem;
+    }
+
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    .sect1 {
+        margin-left: 1rem;
+    }
+
+    .client-logo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .about {
+        grid-template-columns: auto;
+        margin-top: .2rem;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about .txt {
+        width: 100%;
+    }
+
+    .mem {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .team h4 {
+        font-size: 1rem;
+        font-weight: 400;
+        color: black;
+        background: white;
+        padding: 0.2rem;
+        border-radius: .2rem;
+    }
+
+    .team h5 {
+        font-weight: normal;
+        font-size: 1rem;
+        /* padding: .6rem; */
+    }
+
+    .val,
+    .service {
+        display: grid;
+        grid-template-columns: auto;
+        /* gap: 1rem; */
+    }
+
+    .sect h2 {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .exptabs {
+        grid-template-columns: auto;
+        font-weight: 300;
+    }
+
+    .vdtxt h4,
+    .vdtxt h5 {
+        font-weight: 350;
+    }
+
+    .capt h5 {
+        font-weight: 400;
+    }
+
+    .experience h2,
+    .about h2 {
+        font-size: 1rem;
+    }
+
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    .sect1 {
+        margin-left: 1rem;
+    }
+
+    .client-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+    }
+
+    .about {
+        grid-template-columns: auto;
+        margin-top: .2rem;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about .txt {
+        width: 100%;
+    }
+
+    .mem {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .team h4 {
+        font-size: 1rem;
+        font-weight: 400;
+        color: black;
+        background: white;
+        padding: 0.2rem;
+        border-radius: .2rem;
+    }
+
+    .team h5 {
+        font-weight: normal;
+        font-size: 1rem;
+        /* padding: .6rem; */
+    }
+
+    .val,
+    .service {
+        display: grid;
+        grid-template-columns: auto;
+        /* gap: 1rem; */
+    }
+
+    .sect h2 {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 650px) {
     .exptabs {
         grid-template-columns: auto;
         font-weight: normal;
-        /* margin: 1rem; */
     }
 
     .experience h2,
@@ -46,8 +211,6 @@
     .mem {
         display: grid;
         grid-template-columns: auto;
-        /* gap: 1.5rem; */
-        /* padding: 1rem; */
     }
 
     .team h4 {
@@ -72,18 +235,13 @@
     }
 
     .client-logo {
-        max-width: 100%;
-        overflow: hidden;
-    }
-
-    .client-logo img {
-        height: 50px;
-        width: 5em;
-        margin: .5rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem;
     }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (min-width: 800px) and (max-width: 1020px) {
     .about {
         grid-template-columns: auto;
         margin-top: .2rem;
@@ -97,4 +255,9 @@
         width: 100%;
     }
 
+    .client-logo {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
+    }
 }
